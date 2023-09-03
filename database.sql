@@ -6,12 +6,12 @@ CREATE TABLE "todo app" (
   "notes" varchar(200) NOT NULL
 );
 
+
 INSERT INTO "todo app" (task, priority, status, notes)
 VALUES 
-  ('go grocery shoppping', 'low', 'true', 'buy milk and eggs'),
-   ('yoga exercise', 'high', 'false', 'do yoga outside'),
-    ('laundry', 'normal', 'true', 'buy more laundry detergent'),
-     ('make dinner', 'high', 'false','make pasta chicken alferdo'),
-      ('finsih homework', 'high', 'true', 'finish weekend homework');
+  ('Go grocery shoppping', 'low', 'true', 'Buy milk and eggs'),
+   ('Yoga exercise', 'high', 'false', 'Do yoga outside'),
+    ('Laundry', 'normal', 'true', 'Add laundry detergent to grocery list'),
+     ('Make dinner', 'high', 'false','Make pasta chicken alferdo'),
+      ('Finsih homework', 'high', 'true', 'Finish weekend homework');
       
-
