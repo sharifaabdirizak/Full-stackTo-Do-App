@@ -7,7 +7,7 @@
     <script src="scripts/client.js" charset="utf-8"></script>
     <link rel="stylesheet" href="views/styles.css">
 
-<title>c</title>
+<title>To Do List</title>
 </head>
 
 
@@ -18,14 +18,26 @@
 
     </header>
             
-<section id= "AddToDoApp">
+<section id= "addTodoList">
+    <h2>Add To Do List</h2>
 <input type="text" id="taskIn" value="" placeholder="task">
     <input type="text" id="priorityIn" value="" placeholder="priority">
     <input type="text" id="statusIn" value="" placeholder="status">
     <input type="text" id="notesIn" value="" placeholder="notes">
-    <button type="button" id="addSubmit">Add submit</button>    
+    <button type="button" id="addSubmitButton">Add submit</button>    
 </section>
-
+<h2>To Do List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody id="viewToDoList"></tbody>
+        
 
 
     
