@@ -30,11 +30,14 @@ function addTask (){
         status: newStatus, // must be true or false
         note: newNote
 
-    }};
-    //call saveTask with new object
+    }
     postTask(taskToSend);
+};
+    //call saveTask with new object
+    
 //function will send input vlaues to server, tasks will be added into the database.
     function postTask(newTask) {
+
         console.log('in POST/task', newTask)
 
         
