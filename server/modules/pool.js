@@ -1,10 +1,7 @@
-
-
-
 const pg = require('pg');
 
 const pool = new pg.Pool({
-    database: 'todoapp',
+    database: 'to_do_app',
 
     host: 'localhost',
 

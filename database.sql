@@ -7,6 +7,7 @@ CREATE TABLE "todo app" (
 );
 
 
+
 INSERT INTO "todo app" (task, priority, status, notes)
 VALUES 
   ('Go grocery shoppping', 'low', 'true', 'Buy milk and eggs'),

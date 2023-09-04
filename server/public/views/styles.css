@@ -1,8 +1,59 @@
 header {
     background-color: #eaa2e5;
-    color: #53a6e9;
+    color: #721784;
 }
 body {
     background-color: lightgrey;
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#addTask {
+    background-color: rgb(238, 238, 77);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.completed {
+    background-color: #2f6b22,
+}
+
+#submitButton {
+    border: #f0e1ec;
+    background-color: #f67ec4;
+    margin-bottom: 10px;
+}
+
+.markCompleteButton {
+    border: #31d40c;
+    background-color: #3a8d22;
+}
+.deleteButton {
+    border: #eb312b;
+    background-color: #b43e3a;
+}
+
+table td, table th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(226, 91, 174);
+    text-align: center;
+    padding: 15px,
+}
+table {
+    border-collapse: collapse;
+    width: 100%;   
 }
