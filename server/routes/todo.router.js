@@ -22,7 +22,7 @@ todoRouter.get("/", (req, res) => {
       res.send(dbRes.rows);
     })
     .catch((dbErr) => {
-      console.log("error in GET", { queryText }, err);
+      console.log("error in GET", { queryText }, dbErr);
     });
 });
 

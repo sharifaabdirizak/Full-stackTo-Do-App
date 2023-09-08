@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+require ('dotenv').config();
 //set up bodyParser
 const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 5000;
