@@ -44,7 +44,7 @@ function postTask(newTask) {
     data: newTask,
   })
     .then((res) => {
-      console.log("Client: new task submitted successfully");
+      console.log("Client: new task submitted successfully", res);
       getTask();
     })
     .catch((err) => {
